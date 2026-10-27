@@ -18,7 +18,7 @@ All projects run in my own lab environments against intentionally vulnerable tar
 | Project | What it shows |
 |---|---|
 | [appsec-devsecops-pipeline](https://github.com/Uppula4070/appsec-devsecops-pipeline) | GitHub Actions pipeline that runs SAST, dependency, secrets and DAST scans and blocks risky merges |
-| vuln-triage-automation *(coming soon)* | Python tool that de-duplicates scanner findings and ranks them by CVSS, EPSS and KEV |
+| [vuln-triage-automation](https://github.com/Uppula4070/vuln-triage-automation) | Python CLI that merges Semgrep, ZAP, Nuclei and pip-audit results, removes duplicates, and ranks them P1–P4 using CVSS, EPSS and CISA KEV, with Jira export |
 | web-api-pentest-lab *(coming soon)* | Dockerized Juice Shop and GraphQL lab with custom Nuclei templates and pentest write-ups |
 | aws-iam-policy-checks *(coming soon)* | Terraform lab with OPA/Rego policies that catch risky IAM and S3 configurations in CI |
 | soc-detections *(coming soon)* | Splunk SPL detections mapped to MITRE ATT&CK, plus a phishing triage script |
