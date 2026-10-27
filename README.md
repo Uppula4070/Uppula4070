@@ -34,6 +34,7 @@ All projects run in my own lab environments against intentionally vulnerable tar
 
 | Project | What it shows |
 |---|---|
+| [pentest-report-toolkit](https://github.com/Uppula4070/pentest-report-toolkit) | Pentest reporting tool: findings written as YAML are validated, CVSS-scored and rendered into a client-ready report with executive summary, remediation roadmap and retest tracking |
 | [appsec-devsecops-pipeline](https://github.com/Uppula4070/appsec-devsecops-pipeline) | GitHub Actions pipeline running SAST, SCA, secrets and DAST scans that blocks risky merges; includes a demo PR where it catches SQL injection, a hardcoded secret and a vulnerable dependency |
 | [vuln-triage-automation](https://github.com/Uppula4070/vuln-triage-automation) | Python CLI that merges Semgrep, ZAP, Nuclei and pip-audit results, removes duplicates, and ranks them P1–P4 using CVSS, EPSS and CISA KEV, with SLA due dates and Jira export |
 
